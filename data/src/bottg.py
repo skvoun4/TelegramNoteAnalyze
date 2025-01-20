@@ -7,10 +7,10 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Установите свой API ключ OpenAI
-openai.api_key = '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'
+openai.api_key = ''
 
 # Установите свой API токен Telegram, полученный от BotFather
-TELEGRAM_API_TOKEN = '7851561608:AAF81dZCM9-DENlLO6slzjLbqIZ0gC-pjfk'
+TELEGRAM_API_TOKEN = ''
 
 # Настройка логирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -19,10 +19,10 @@ logger = logging.getLogger(__name__)
 
 # Конфигурация подключения к MySQL
 DB_CONFIG = {
-    'host': 'localhost',      # Замените на адрес вашего MySQL-сервера
-    'user': 'telegram_bot_user',           # Укажите пользователя MySQL
-    'password': 'Zscs3112!',   # Укажите пароль пользователя
-    'database': 'telegram_bot'   # Название базы данных
+    'host': '',      # Замените на адрес вашего MySQL-сервера
+    'user': '',           # Укажите пользователя MySQL
+    'password': '',   # Укажите пароль пользователя
+    'database': ''   # Название базы данных
 }
 
 # Установление соединения с MySQL
