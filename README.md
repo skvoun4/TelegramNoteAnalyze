@@ -54,7 +54,7 @@ OpenAI API:
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш_репозиторий/TelegramNoteAnalyze.git
+   git clone https://github.com/skvoun4/TelegramNoteAnalyze.git
 
 2. Установите зависимости:
    ```bash
